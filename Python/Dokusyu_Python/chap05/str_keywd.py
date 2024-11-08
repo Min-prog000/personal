@@ -9,8 +9,8 @@ id1 = 'tiff'
 id2 = 'if'
 
 # 予約語かどうか
-print(keyword.iskeyword(id1)) # True
-print(keyword.iskeyword(id2)) # False
+print(keyword.iskeyword(id1)) # False
+print(keyword.iskeyword(id2)) # True
 
 # 識別子に使えるかどうか
 print(id1.isidentifier())     # True
